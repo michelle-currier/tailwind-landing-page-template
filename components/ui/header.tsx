@@ -14,6 +14,9 @@ export default function Header() {
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
+              <Link href="/contact">Contact</Link>
+            </li>
+            <li>
               <Link
                 href="/signin"
                 className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
