@@ -23,12 +23,12 @@ export default function DefaultLayout({
   });
 
   return (
-    <>
+    <div className="font-montserrat">
       <Header />
 
       <main className="grow">{children}</main>
 
       <Footer border={true} />
-    </>
+    </div>
   );
 }

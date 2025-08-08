@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster');
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
@@ -7,3 +10,7 @@
 @import "additional-styles/theme.css";
 
 @import "tailwindcss/utilities";
+
+@theme {
+    --font-display: "Lobster", sans-serif; 
+  }

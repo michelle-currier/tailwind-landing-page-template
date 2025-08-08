@@ -8,8 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],
+        montserrat: ["Montserrat", "sans-serif"],
+        lobster: ["Lobster", "sans-serif"],
       },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1.5" }],
