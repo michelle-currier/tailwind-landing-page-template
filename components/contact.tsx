@@ -56,7 +56,10 @@ export default function ContactComponent() {
 
   return (
     <section className="max-w-3xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center text-black mb-8">
+      <h1
+        className="text-3xl font-bold text-center text-black mb-8 scroll-mt-20"
+        id="contact"
+      >
         Contact Us
       </h1>
       <form onSubmit={handleSubmit} className="space-y-6" data-aos="zoom-y-out">
