@@ -59,9 +59,9 @@ export default function ContactComponent() {
       <h1 className="text-3xl font-bold text-center text-black mb-8">
         Contact Us
       </h1>
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6" data-aos="zoom-y-out">
         <div className="flex flex-col">
-          <label htmlFor="name" className="text-sm font-medium text-black ">
+          <label htmlFor="name" className="text-sm font-medium text-black">
             Your Name
           </label>
           <input

@@ -15,31 +15,20 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/contact"
+                href="#contact"
                 className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
               >
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/consultation">Consultation</Link>
-            </li>
-            {/* <li>
               <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+                href="https://booking.setmore.com/scheduleappointment/aaf0bee6-80a6-4232-95a8-7a5b0a94aea8"
+                target="_blank"
               >
-                Login
+                Consultation
               </Link>
             </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
-              >
-                Register
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
