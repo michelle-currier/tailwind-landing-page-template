@@ -8,6 +8,7 @@ import Hero from "@/components/hero-home";
 import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
 import ContactComponent from "@/components/contact";
+// import NylasContact from "@/components/contactn";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <BusinessCategories /> */}
       <FeaturesPlanet />
       <LargeTestimonial />
+      {/* <NylasContact /> */}
       <ContactComponent />
     </>
   );
